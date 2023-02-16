@@ -13,7 +13,7 @@ bottom equ top+row
 	
 	instructions db 0AH, 0DH, "Use w, a, s, &d to control your snake", 0AH, 0DH, "Use q anytime to quit", 0AH, 0DH, "Press anything",0
 	quitmsg db "Bay bay!", 0
-	gameovermsg db "OOPS!You're snake died",0
+	gameovermsg db "OOPS!Yours snake died",0
 	scoremsg db "Score: ",0
 	head db '^', 10, 10
 	body db '*', 10, 11, 3*15 DUP (0)
